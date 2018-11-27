@@ -12,13 +12,17 @@ namespace SortingAlgorithms
         {
             while (true)
             {
+
+
+
+
                 QuickSort.Test();
+                Console.ReadKey();
 
+                List<int> tmp = InsertionSort.Test();
+                Console.WriteLine(BiggestNumber.FindBiggestNumber(tmp));
                 Console.ReadLine();
 
-                InsertionSort.Test();
-
-                Console.ReadLine();
 
                 BubbleSort.Test();
 

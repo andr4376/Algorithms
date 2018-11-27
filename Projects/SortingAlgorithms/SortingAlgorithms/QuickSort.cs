@@ -8,6 +8,8 @@ namespace SortingAlgorithms
 {
     class QuickSort
     {
+        private static int count;
+
         public static int[] quickSort(int[] _array, int left, int right)
         {
             int[] array = _array;
@@ -44,7 +46,6 @@ namespace SortingAlgorithms
             }
 
             swap(array, end, right);
-
             return end;
         }
 
@@ -58,6 +59,7 @@ namespace SortingAlgorithms
         public static void PrintCollection(int[] array)
         {
             Console.Clear();
+            Console.WriteLine("Actions " + count + "\n");
 
             foreach (var item in array)
             {
@@ -65,10 +67,13 @@ namespace SortingAlgorithms
             }
             Console.WriteLine("\nQuick Sorting");
             System.Threading.Thread.Sleep(50);
+            count++;
         }
 
-        public static void Test()
+        public static int[] Test()
         {
+            count = 0;
+
             Random rnd = new Random();
             List<int> testList = new List<int>();
 
@@ -106,6 +111,8 @@ namespace SortingAlgorithms
             }
 
             array = quickSort(array,0, array.Length-1);
+
+            return array;
         }
     }
 }

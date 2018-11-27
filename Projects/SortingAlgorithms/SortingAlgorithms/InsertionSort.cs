@@ -8,8 +8,12 @@ namespace SortingAlgorithms
 {
     static class InsertionSort
     {
+        static int count = 0;
+
         public static List<int> SortList<T>(List<int> list)
         {
+            count = 0;
+
             List<int> listToSort = list;
 
             for (int i = 0; i < listToSort.Count - 1; i++)
@@ -29,21 +33,25 @@ namespace SortingAlgorithms
             return listToSort;
         }
 
-       
+
 
         public static void PrintCollection(List<int> list)
         {
             Console.Clear();
+
+            Console.WriteLine("Actions " + count + "\n");
+
             foreach (var item in list)
             {
-                Console.WriteLine("["+item+"]");
+                Console.WriteLine("[" + item + "]");
             }
             Console.WriteLine("\nInsertion Sorting");
             System.Threading.Thread.Sleep(50);
+            count++;
         }
 
 
-        public static void Test()
+        public static List<int> Test()
         {
             Random rnd = new Random();
             List<int> testList = new List<int>();
@@ -76,9 +84,10 @@ namespace SortingAlgorithms
 
 
             testList = InsertionSort.SortList<int>(testList);
+            return testList;
         }
     }
 
 
-   
+
 }

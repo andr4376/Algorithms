@@ -8,7 +8,7 @@ namespace SortingAlgorithms
 {
     static class BubbleSort
     {
-
+        private static int count;
         public static List<int> BubbleSortList<T>(List<int> list)
         {
 
@@ -31,6 +31,7 @@ namespace SortingAlgorithms
                     }
                 }
             }
+            count = 0;
 
             return tmp;
         }
@@ -38,12 +39,15 @@ namespace SortingAlgorithms
         private static void PrintCollection(List<int> list)
         {
             Console.Clear();
+            Console.WriteLine("Actions " + count + "\n");
+
             foreach (var item in list)
             {
                 Console.WriteLine("[" + item + "]");
             }
             Console.WriteLine("\nBubble Sorting");
             System.Threading.Thread.Sleep(50);
+            count++;
         }
 
         public static void Test()
