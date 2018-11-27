@@ -10,10 +10,21 @@ namespace SortingAlgorithms
     {
         static void Main(string[] args)
         {
-            InsertionSort.Test();
+            while (true)
+            {
+                QuickSort.Test();
 
-            Console.ReadLine();
-            
+                Console.ReadLine();
+
+                InsertionSort.Test();
+
+                Console.ReadLine();
+
+                BubbleSort.Test();
+
+                Console.ReadLine();
+            }
+
         }
     }
 }

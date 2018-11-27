@@ -5,3 +5,10 @@ C:\Users\Andr4\source\repos\SortingAlgorithms\SortingAlgorithms\obj\Debug\Sortin
 C:\Users\Andr4\source\repos\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.csproj.CoreCompileInputs.cache
 C:\Users\Andr4\source\repos\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.exe
 C:\Users\Andr4\source\repos\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.pdb
+C:\Users\Andr4\Desktop\Algorithms\Projects\SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe.config
+C:\Users\Andr4\Desktop\Algorithms\Projects\SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe
+C:\Users\Andr4\Desktop\Algorithms\Projects\SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.pdb
+C:\Users\Andr4\Desktop\Algorithms\Projects\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.csprojAssemblyReference.cache
+C:\Users\Andr4\Desktop\Algorithms\Projects\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\Desktop\Algorithms\Projects\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.exe
+C:\Users\Andr4\Desktop\Algorithms\Projects\SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.pdb

@@ -6,42 +6,45 @@ using System.Threading.Tasks;
 
 namespace SortingAlgorithms
 {
-    static class InsertionSort
+    static class BubbleSort
     {
-        public static List<int> SortList<T>(List<int> list)
+
+        public static List<int> BubbleSortList<T>(List<int> list)
         {
-            List<int> listToSort = list;
 
-            for (int i = 0; i < listToSort.Count - 1; i++)
+            List<int> tmp = list;
+
+            int temp = 0;
+
+            for (int write = 0; write < tmp.Count; write++)
             {
-                for (int j = i + 1; j > 0; j--)
+                for (int sort = 0; sort < tmp.Count - 1; sort++)
                 {
-                    if (listToSort[j - 1] > listToSort[j])
+                    if (tmp[sort] > tmp[sort + 1])
                     {
-                        int temp = listToSort[j - 1];
-                        listToSort[j - 1] = listToSort[j];
-                        listToSort[j] = temp;
+                        temp = tmp[sort + 1];
+                        tmp[sort + 1] = tmp[sort];
+                        tmp[sort] = temp;
 
-                        PrintCollection(listToSort);
+                        PrintCollection(tmp);
+
                     }
                 }
             }
-            return listToSort;
+
+            return tmp;
         }
 
-       
-
-        public static void PrintCollection(List<int> list)
+        private static void PrintCollection(List<int> list)
         {
             Console.Clear();
             foreach (var item in list)
             {
-                Console.WriteLine("["+item+"]");
+                Console.WriteLine("[" + item + "]");
             }
-            Console.WriteLine("\nInsertion Sorting");
+            Console.WriteLine("\nBubble Sorting");
             System.Threading.Thread.Sleep(50);
         }
-
 
         public static void Test()
         {
@@ -75,10 +78,7 @@ namespace SortingAlgorithms
 
 
 
-            testList = InsertionSort.SortList<int>(testList);
+            testList = BubbleSort.BubbleSortList<int>(testList);
         }
     }
-
-
-   
 }
