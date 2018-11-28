@@ -1,0 +1,7 @@
+C:\Users\Andr4\source\repos\day3-Grafer\day3-Grafer\bin\Debug\day3-Grafer.exe.config
+C:\Users\Andr4\source\repos\day3-Grafer\day3-Grafer\bin\Debug\day3-Grafer.exe
+C:\Users\Andr4\source\repos\day3-Grafer\day3-Grafer\bin\Debug\day3-Grafer.pdb
+C:\Users\Andr4\source\repos\day3-Grafer\day3-Grafer\obj\Debug\day3-Grafer.csprojAssemblyReference.cache
+C:\Users\Andr4\source\repos\day3-Grafer\day3-Grafer\obj\Debug\day3-Grafer.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\day3-Grafer\day3-Grafer\obj\Debug\day3-Grafer.exe
+C:\Users\Andr4\source\repos\day3-Grafer\day3-Grafer\obj\Debug\day3-Grafer.pdb
