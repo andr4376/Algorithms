@@ -61,3 +61,16 @@ D:\Code projects\Algorithms\Projects\Grid\Grid\obj\Debug\Grid.csproj.GenerateRes
 D:\Code projects\Algorithms\Projects\Grid\Grid\obj\Debug\Grid.csproj.CoreCompileInputs.cache
 D:\Code projects\Algorithms\Projects\Grid\Grid\obj\Debug\Grid.exe
 D:\Code projects\Algorithms\Projects\Grid\Grid\obj\Debug\Grid.pdb
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\bin\Debug\Images\Wall.png
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\bin\Debug\Images\Goal.png
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\bin\Debug\Images\Start.png
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\bin\Debug\Grid.exe.config
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\bin\Debug\Grid.exe
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\bin\Debug\Grid.pdb
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\obj\Debug\Grid.csprojAssemblyReference.cache
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\obj\Debug\Grid.Form1.resources
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\obj\Debug\Grid.Properties.Resources.resources
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\obj\Debug\Grid.csproj.GenerateResource.cache
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\obj\Debug\Grid.csproj.CoreCompileInputs.cache
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\obj\Debug\Grid.exe
+D:\Code projects\Algorithms\Projects\Astar Pathfinding\Grid\obj\Debug\Grid.pdb
